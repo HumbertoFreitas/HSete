@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>HSete</title>
+
+<style type="text/css">
+body {
+	background:  #242424;
+}
+input {
+	font-size:   60;
+	font-weight: bold;
+	color:       #FFFFFF;
+	background:  #3E3C3A;
+	width:       400;
+	height:      150;
+}
+input:hover {
+	background: #484745;
+	cursor:     pointer;
+}
+</style>
+</head>
+
+<script type="text/javascript">
+window.onload = function() {
+	document.getElementById("URL").onclick = function() {
+		window.open("https://www.mediafire.com/file/" + window.location.href.split("#")[1]);
+	};
+};
+</script>
+
+<!-- ========================================= -->
+<body>
+<table style="width:100%; height:100%;">
+<tr align="center">
+<td>
+
+<!-- ========================================= -->
+<table>
+<tr align="center">
+<td>
+
+<input value='Download' id='URL' type='button'>
+
+</td>
+</tr>
+</table>
+
+<!-- ========================================= -->
+</td>
+</tr>
+</table>
+</body>
+</html>
