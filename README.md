@@ -1,1 +1,1 @@
-
+Descomplicando a tecnologia.
